@@ -1,0 +1,15 @@
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/obj/Debug/net5.0/tracker.csproj.AssemblyReference.cache
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/obj/Debug/net5.0/tracker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/obj/Debug/net5.0/tracker.AssemblyInfoInputs.cache
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/obj/Debug/net5.0/tracker.AssemblyInfo.cs
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/obj/Debug/net5.0/tracker.csproj.CoreCompileInputs.cache
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/bin/Debug/net5.0/tracker.deps.json
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/bin/Debug/net5.0/tracker.dll
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/bin/Debug/net5.0/ref/tracker.dll
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/bin/Debug/net5.0/tracker.pdb
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/obj/Debug/net5.0/tracker.dll
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/obj/Debug/net5.0/ref/tracker.dll
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/obj/Debug/net5.0/tracker.pdb
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/bin/Debug/net5.0/tracker.runtimeconfig.json
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/bin/Debug/net5.0/tracker.runtimeconfig.dev.json
+/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/obj/Debug/net5.0/tracker.genruntimeconfig.cache
