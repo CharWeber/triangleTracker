@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/Users/chynnalew/.nuget/packages/": {}
+    "/Users/business/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/tracker.csproj",
-      "projectName": "tracker",
-      "projectPath": "/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/tracker.csproj",
-      "packagesPath": "/Users/chynnalew/.nuget/packages/",
-      "outputPath": "/Users/chynnalew/Desktop/week8/Triangle-Tracker/tracker/obj/",
+      "projectUniqueName": "/Users/business/Desktop/triangleTracker/Tracker/Tracker.csproj",
+      "projectName": "Tracker",
+      "projectPath": "/Users/business/Desktop/triangleTracker/Tracker/Tracker.csproj",
+      "packagesPath": "/Users/business/.nuget/packages/",
+      "outputPath": "/Users/business/Desktop/triangleTracker/Tracker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/chynnalew/.nuget/NuGet/NuGet.Config"
+        "/Users/business/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -54,6 +54,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

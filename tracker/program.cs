@@ -1,46 +1,20 @@
-using System;
-using System.Collections.Generic;
-using TriangleTracker;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
 
-namespace Program
+namespace Tracker
 {
-  public class Tracker
+  public class Program
   {
-    public static void Main()
+    public static void Main(string[] args)
     {
-      Console.WriteLine("Check your triangle here!");
-      Console.WriteLine("Input your first side length");
-      string A = Console.ReadLine();
-      int convertA = int.Parse(A);
-      Console.WriteLine("Input your second side length");
-      string B = Console.ReadLine();
-      int convertB = int.Parse(B);
-      Console.WriteLine("Input your third side length");
-      string C = Console.ReadLine();
-      int convertC = int.Parse(C);
+      var host = new WebHostBuilder()
+        .UseKestrel()
+        .UseContentRoot(Directory.GetCurrentDirectory())
+        .UseIISIntegration()
+        .UseStartup<Startup>()
+        .Build();
 
-      Triangle userTriangle = new Triangle();
-
-      if (userTriangle.IsTriangle(convertA, convertB, convertC) == true)
-      {
-        Console.WriteLine("Congrats! It's a triangle!");
-        if (userTriangle.IsEqui(convertA, convertB, convertC))
-        {
-          Console.WriteLine("It's an Equilateral!");
-        }
-        else if (userTriangle.IsIso(convertA, convertB, convertC) == true)
-        {
-          Console.WriteLine("It's an Isosceles");
-        }
-        else if (userTriangle.IsScale(convertA, convertB, convertC))
-        {
-          Console.WriteLine("It's a Scalene");
-        }
-      }
-      else
-      {
-        Console.WriteLine("Not a valid triangle");
-      }
+      host.Run();
     }
   }
 }

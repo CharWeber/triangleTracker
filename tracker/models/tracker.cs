@@ -1,10 +1,12 @@
 using System;
 
 
-namespace TriangleTracker
+namespace Tracker.Models
 {
   public class Triangle
   {
+    public string Type { get; set; }
+
     public bool IsTriangle(int A, int B, int C)
     {
       if (A + B > C && B + C > A && A + C > B)
