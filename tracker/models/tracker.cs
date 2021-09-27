@@ -9,35 +9,35 @@ namespace Tracker.Models
 
     public bool IsTriangle(int A, int B, int C)
     {
-      if (A + B > C && B + C > A && A + C > B)
-      {
-      return true;
-      }
-      return false;
+      return (A + B > C && B + C > A && A + C > B);
+      // {
+      // return true;
+      // }
+      // return false;
     }
     public bool IsIso(int A, int B, int C)
     {
-      if (A == B || B == C || C == A)
-      {
-        return true;
-      }
-      return false;
+      return (A == B || B == C || C == A);
+      // {
+      //   return true;
+      // }
+      // return false;
     }
     public bool IsEqui(int A, int B, int C)
     {
-      if (A == B && A == C)
-      {
-        return true;
-      }
-      return false;
+      return (A == B && A == C);
+      // {
+      //   return true;
+      // }
+      // return false;
     }
     public bool IsScale(int A, int B, int C)
     {
-      if(A != B && A!= C && C != B)
-      {
-        return true;
-      }
-      return false;
+      return (A != B && A!= C && C != B);
+      // {
+      //   return true;
+      // }
+      // return false;
     }
   }
 }
